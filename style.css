@@ -1,0 +1,106 @@
+   /* Estilos generales */
+:root{
+    --custom-color-primary: #0e4198;
+    --custom-color-second: #ee1d23;
+    --custom-color-terceary: #faaf18;
+}
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  /* Estilo para encabezado */
+
+  .logo{
+    width: 250px;
+  }
+
+ 
+  /* Estilos para la sección de productos estelares */
+  .featured-products {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .featured-product{
+    width: 200px;
+    height: 278px;
+  }
+
+  .yellow-banner{
+    background-color: var(--custom-color-terceary);
+    color: #fff;
+  }
+
+  .yellow-banner img{
+    position: relative;
+    top: 2%;
+    left: 75%;
+    transform: rotate(15deg);
+    height: 220px;
+    width: auto;
+  }
+  .yellow-banner h2{
+    font-size: 24px;
+    position: relative;
+    text-align: left;
+  }
+
+  .yellow-banner h4{
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+  }
+  .red-banner{
+    background-color: var(--custom-color-second);
+    color: #fff;
+  }
+
+  .blue-banner{
+    background-color: var(--custom-color-primary);
+    color: #fff;
+  }
+  /* .featured-product {
+    display: inline-block;
+    margin: 10px;
+  } */
+
+/* 
+  .featured-product .name {
+    position: relative;
+    font-size: 24px;
+    right: 30%;
+    top: 3%;
+  } */
+
+  /* Estilos para la sección de lista de productos */
+  .product-list {
+    margin-bottom: 40px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
