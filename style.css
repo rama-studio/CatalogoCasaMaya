@@ -24,6 +24,7 @@
 
   .logo{
     width: 250px;
+    margin-left: -70%
   }
 
  
@@ -52,20 +53,17 @@
     height: 220px;
     width: auto;
   }
-  .yellow-banner h2{
+  #banners h2{
     font-size: 24px;
     position: relative;
-    text-align: left;
     font-weight: bold;
     margin-left: -10%;
     margin-bottom: 10%;
   }
  
-
-  .yellow-banner h4{
+  #banners h4{
     font-size: 18px;
     position: relative;
-    text-align: left;
     margin-left: -10%;
     margin-bottom: 15%;
   }
@@ -74,9 +72,23 @@
     color: #fff;
   }
 
+  .red-banner img{
+    height: 250px;
+    width: auto;
+    margin-left: -25%;
+    transform: rotate(-10deg);
+  }
+
   .blue-banner{
     background-color: var(--custom-color-primary);
     color: #fff;
+  }
+
+  .blue-banner img {
+    height: 220px;
+    width: auto;
+    margin-left: -20%;
+
   }
   /* .featured-product {
     display: inline-block;
