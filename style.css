@@ -41,67 +41,18 @@
     width: 200px;
     height: 278px;
   }
+  
+.blue-banner{
+  background-color: #0e4198;
+}
 
-  .yellow-banner{
-    background-color: var(--custom-color-terceary);
-    color: #fff;
-  }
+.red-banner{
+  background-color: #ee1d23;
+}
 
-  .yellow-banner img{
-    transform: rotate(15deg);
-    height: 220px;
-    width: auto;
-  }
-  #banners h2{
-    font-size: 24px;
-    position: relative;
-    font-weight: bold;
-    margin-left: -10%;
-    margin-bottom: 10%;
-  }
- 
-  #banners h4{
-    font-size: 18px;
-    position: relative;
-    margin-left: -10%;
-    margin-bottom: 15%;
-  }
-  .red-banner{
-    background-color: var(--custom-color-second);
-    color: #fff;
-  }
-
-  .red-banner img{
-    height: 250px;
-    width: auto;
-    margin-left: -25%;
-    transform: rotate(-10deg);
-  }
-
-  .blue-banner{
-    background-color: var(--custom-color-primary);
-    color: #fff;
-  }
-
-  .blue-banner img {
-    height: 220px;
-    width: auto;
-    margin-left: -20%;
-
-  }
-  /* .featured-product {
-    display: inline-block;
-    margin: 10px;
-  } */
-
-/* 
-  .featured-product .name {
-    position: relative;
-    font-size: 24px;
-    right: 30%;
-    top: 3%;
-  } */
-
+.yellow-banner{
+  background-color: #faaf18;
+}
   /* Estilos para la sección de lista de productos */
   .product-list {
     margin-bottom: 40px;
@@ -123,12 +74,60 @@
     font-weight: bold;
   }
 
-  .balloon {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: var(--custom-color-primary);
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 50px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); 
+  .floating-button-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
   }
+  
+  .floating-button-mail {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .floating-button-whatsapp a,
+  .floating-button-mail a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .floating-button-whatsapp a {
+    background-color: #25d366;
+  }
+  
+  .floating-button-mail a {
+    background-color: #f44336;
+  }
+  .floating-button-phone {
+    position: fixed;
+    bottom: 180px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .floating-button-phone a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2196f3;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  
